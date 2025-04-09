@@ -1,28 +1,20 @@
-<!DOCTYPE html>
-<html lang="PT-BR">
-    <head>
-        <title></title>
-        <link rel="stylesheet" type="text/css" href="">
-        <script src="jquery.js"></script>
-        <script>
-            $(document).ready(function(){
-       btn_um.onclick = function(){$("#campo").val(1);}
-       btn_dois.onclick = function(){$("#campo").val(2);}
-       btn_tres.onclick = function(){$("#campo").val(3);}
-       btn_adicao.onclick = function(){$("#campo").val();}
-       btn_porcentagem.onclick = function(){$("#campo").val();}
+("#campo").val("1"); um = 1;}
+       btn_dois.onclick = function(){$("#campo").val("2"); dois = 2;}
+       btn_tres.onclick = function(){$("#campo").val("3"); tres = 3;}
+       btn_adicao.onclick = function(){$("#campo").val("1");operacao = "a";}
+       btn_porcentagem.onclick = function(){$("#campo").val("1");operacao = "por" }
 
-       btn_quatro.onclick = function(){$("#campo").val();}
-       btn_cinco.onclick = function(){$("#campo").val();}
-       btn_seis.onclick = function(){$("#campo").val();}
-       btn_subtracao.onclick = function(){$("#campo").val();}
-       btn_potencia.onclick = function(){$("#campo").val();}
+       btn_quatro.onclick = function(){$("#campo").val("4"); quatro = 4;}
+       btn_cinco.onclick = function(){$("#campo").val("5"); cinco = 5;}
+       btn_seis.onclick = function(){$("#campo").val("6"); seis = 6;}
+       btn_subtracao.onclick = function(){$("#campo").val("1"); operacao = "s" }
+       btn_potencia.onclick = function(){$("#campo").val("1"); operacao = "po" }
 
-       btn_sete.onclick = function(){$("#campo").val();}
-       btn_oito.onclick = function(){$("#campo").val();}
-       btn_nove.onclick = function(){$("#campo").val();}
-       btn_divisao.onclick = function(){$("#campo").val();}
-       btn_pa.onclick = function(){$("#campo").val();}
+       btn_sete.onclick = function(){$("#campo").val("7"); sete = 7;}
+       btn_oito.onclick = function(){$("#campo").val("8"); oito = 8;}
+       btn_nove.onclick = function(){$("#campo").val("9"); nove = 9;}
+       btn_divisao.onclick = function(){$("#campo").val("1"); operacao = d;}
+       btn_pa.onclick = function(){$("#campo").val("1"); operacao = "pa"}
 
        btn_ponto.onclick = function(){$("#campo").val();}
        btn_zero.onclick = function(){$("#campo").val();}
@@ -74,4 +66,32 @@
 
         </fieldset>
     </body>
-</html>
+</html><!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="">
+        <script src="jquery.js"></script>
+        <script>
+            $(document).ready(function(){
+
+       let operacao;
+       let total;
+       let um;
+       let dois;
+       let tres;
+       let quatro;
+       let cinco;
+       let seis;
+       let sete;
+       let oito;
+       let nove;
+       let zero;
+       let soma;
+       let subbtracao;
+       let divisao;
+       let multiplicacao;
+       let potencia;
+       let porcentagem;
+
+       btn_um.onclick = function(){$
